@@ -118,8 +118,8 @@
         layer_1 {
             bindings = <
 &trans   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6               &kp F7           &kp F8        &kp F9        &kp F10           &kp F12
-&trans   &trans           &kp UP_ARROW    &trans           &trans           &kp PG_UP          &mmv MOVE_DOWN   &kp ES_CARET         &kp ES_PIPE      &kp ES_IEXCL   &kp ES_EXCL  &kp ES_LBKT       &kp ES_RBKT
-&trans   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans           &kp PG_DN          &mmv MOVE_LEFT   &kp ES_SINGLE_QUOTE  &kp ES_BSLH      &kp ES_STAR   &kp ES_MINUS  &kp ES_LBRC       &kp ES_RBRC
+&trans   &trans           &kp UP_ARROW    &trans           &HOME            &kp PG_UP          &mmv MOVE_DOWN   &kp ES_CARET         &kp ES_PIPE      &kp ES_IEXCL   &kp ES_EXCL  &kp ES_LBKT       &kp ES_RBKT
+&trans   &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &END             &kp PG_DN          &mmv MOVE_LEFT   &kp ES_SINGLE_QUOTE  &kp ES_BSLH      &kp ES_STAR   &kp ES_MINUS  &kp ES_LBRC       &kp ES_RBRC
 &trans   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI      &rgb_ug RGB_BRD  &kp ES_PLUS   &kp ES_UNDER   &kp ES_IQMARK     &kp ES_QMARK
 &kp C_MUTE  &trans        &trans          &trans           &trans           &trans             &kp ENTER        &trans               &trans           &trans        &trans        &trans
             >;
