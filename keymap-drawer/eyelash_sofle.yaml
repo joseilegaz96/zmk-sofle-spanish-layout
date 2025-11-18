@@ -66,7 +66,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:backspace-reverse-outline$$
   Funcion:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD GRAVE ACCENT AND TILDE))
   - F1
   - F2
   - F3
